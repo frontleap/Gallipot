@@ -15,4 +15,14 @@ contract Gallipot {
         balance[msg.sender] = _initialSupply;
         unitCharge = _unitHourCharge;
      }
+
+     struct item {
+         string name;
+         address uia;
+         address owner;
+     }
+
+     mapping (address => item) directory;
+
+     
 }

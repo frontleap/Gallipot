@@ -1,0 +1,55 @@
+{
+  "name": "gallipot",
+  "version": "1.0.0",
+  "description": "Supply chain using blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontleap/Gallipot.git"
+  },
+  "keywords": [
+    "ethereum",
+    "angular2",
+    "ecdsa"
+  ],
+  "author": "Manoj P R",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/frontleap/Gallipot.git"
+  },
+  "homepage": "https://github.com/frontleap/Gallipot.git",
+  "devDependencies": {
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "@types/core-js": "^0.9.34",
+    "@types/node": "^6.0.45",
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "@angular/common": "~2.2.0",
+    "@angular/compiler": "~2.2.0",
+    "@angular/core": "~2.2.0",
+    "@angular/forms": "~2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "@angular/router": "~3.2.0",
+    "@angular/upgrade": "~2.2.0",
+    "angular-in-memory-web-api": "~0.1.15",
+    "angular2-qrcode": "^1.0.4",
+    "core-js": "^2.4.1",
+    "ng2-slim-loading-bar": "^2.0.5",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  }
+}

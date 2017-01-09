@@ -1,0 +1,6 @@
+.vscode
+has-flag
+node_modules
+*.log
+*.map
+*.ts
